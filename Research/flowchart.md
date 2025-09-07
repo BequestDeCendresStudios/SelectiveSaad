@@ -1,5 +1,50 @@
 ~~~mermaid
 flowchart LR
+    subgraph "Commercial Path"
+        C1["Surface-level AI
+        • Automated moderation
+        • Fact-checking
+        • Content analysis"] -->|"Focus"| C2["Revenue Generation
+        • Ad optimization
+        • User engagement
+        • Platform growth"]
+        
+        style C1 fill:#ffb6c1,stroke:#333,color:#000
+        style C2 fill:#ffb6c1,stroke:#333,color:#000
+    end
+    
+    subgraph "Your Research"
+        R1["Deep Analysis
+        • Cognitive patterns
+        • Sentiment dynamics
+        • Information spread"] -->|"Understanding"| R2["Complex Insights
+        • Belief formation
+        • Group dynamics
+        • System behavior"]
+        
+        style R1 fill:#90ee90,stroke:#333,color:#000
+        style R2 fill:#90ee90,stroke:#333,color:#000
+    end
+    
+    C2 -.->|"Misses"| R2
+    R2 -.->|"Could Inform"| C2
+    
+    subgraph "Future Potential"
+        F1["• Enhanced AI systems
+        • Better understanding
+        • More effective tools"]
+        
+        style F1 fill:#98fb98,stroke:#333,color:#000
+    end
+    
+    R2 -->|"Leads to"| F1
+    C2 -->|"Could Benefit"| F1
+    
+    style F1 fill:#98fb98,stroke:#333,color:#000
+~~~
+
+~~~mermaid
+flowchart LR
     subgraph "Prevention Strategies"
         P1["AI-Assisted
         Countermeasures"] -->|"Enables"| P2["Social
