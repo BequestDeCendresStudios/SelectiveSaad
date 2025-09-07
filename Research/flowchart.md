@@ -1,5 +1,45 @@
 ~~~mermaid
 flowchart LR
+    subgraph "Research Evolution"
+        C["Conspiracy Theory
+        Sentiment Analysis"] -->|"Evolution"| N["Neural Science
+        Integration"]
+        N -->|"Current Focus"| A["AI System
+        Analysis"]
+        
+        style C fill:#ffb6c1,stroke:#333,color:#000
+        style N fill:#90ee90,stroke:#333,color:#000
+        style A fill:#98fb98,stroke:#333,color:#000
+    end
+    
+    subgraph "Key Insights"
+        I1["• Information Spread
+        • Community Dynamics
+        • Belief Systems"]
+        
+        I2["• Cognitive Patterns
+        • Neural Mechanisms
+        • Processing Models"]
+        
+        I3["• System Limitations
+        • Technical Analysis
+        • Implementation"]
+        
+        style I1 fill:#ffe4b5,stroke:#333,color:#000
+        style I2 fill:#e6e6fa,stroke:#333,color:#000
+        style I3 fill:#f0f8ff,stroke:#333,color:#000
+    end
+    
+    C --> I1
+    N --> I2
+    A --> I3
+    
+    I1 -.->|"Informed"| I2
+    I2 -.->|"Influenced"| I3
+~~~
+
+~~~mermaid
+flowchart LR
     subgraph "Commercial Path"
         C1["Surface-level AI
         • Automated moderation
