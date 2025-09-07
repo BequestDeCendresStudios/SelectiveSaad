@@ -1,17 +1,17 @@
-def competitive_selection
-  SaadSelective::CompetitiveSelection.get_player_statistics(:dogs,           "are man's best friend.",
-                                                            :cats,           "are the cleanest pets.",
-                                                            :gerbils, "are not using hamster wheels.")
-
-  SaadSelective::CompetitiveSelection.get_gribatomaton_statistics(:dogs,           "are man's best friend.",
-                                                                  :cats,           "are the cleanest pets.",
-                                                                  :gerbils, "are not using hamster wheels.")
-
-  SaadSelective::CompetitiveSelection.get_enemy_statistics(:dogs,           "are man's best friend.",
-                                                           :cats,           "are the cleanest pets.",
-                                                           :gerbils, "are not using hamster wheels.")
+def competitive_selective
+  SaadSelective::CoordinatedSelection.get_player_statistics(:starving_prisoner_experiment, "tested to see whether prisoners would assist or work against each other when caged in starvation mode. It was concluded that one prisoner will remain by barely alive, and needing critical care.",
+                 :economic_simulation,          "tested to see whether economics would collapse or prosper based on progressive economic taxation. It was concluded that economies will progressive taxation tended to increase in prosperity by making everyone middle class.",
+                 :cultomatic,                   "tests remains to be experimented on to see what kind of malicious cults emerge out from similar recruitment tactics.")
+  
+  SaadSelective::CoordinatedSelection.get_gribatomaton_statistics(:starving_prisoner_experiment, "tested to see whether prisoners would assist or work against each other when caged in starvation mode. It was concluded that one prisoner will remain by barely alive, and needing critical care.",
+                 :economic_simulation,          "tested to see whether economics would collapse or prosper based on progressive economic taxation. It was concluded that economies will progressive taxation tended to increase in prosperity by making everyone middle class.",
+                 :cultomatic,                   "tests remains to be experimented on to see what kind of malicious cults emerge out from similar recruitment tactics.")
+  
+  SaadSelective::CoordinatedSelection.get_enemy_statistics(:starving_prisoner_experiment, "tested to see whether prisoners would assist or work against each other when caged in starvation mode. It was concluded that one prisoner will remain by barely alive, and needing critical care.",
+                 :economic_simulation,          "tested to see whether economics would collapse or prosper based on progressive economic taxation. It was concluded that economies will progressive taxation tended to increase in prosperity by making everyone middle class.",
+                 :cultomatic,                   "tests remains to be experimented on to see what kind of malicious cults emerge out from similar recruitment tactics.")
                                                            
-  SaadSelective::CompetitiveSelection.decrement_confidence
+  SaadSelective::CoordinatedSelection.decrement_confidence
 end
 
 ## Reassess Player
