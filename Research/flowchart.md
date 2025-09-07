@@ -1,4 +1,50 @@
 ~~~mermaid
+flowchart LR
+    subgraph "Prevention Strategies"
+        P1["AI-Assisted
+        Countermeasures"] -->|"Enables"| P2["Social
+        Infrastructure"]
+        
+        P1 -->|"Supports"| P3["Critical
+        Thinking"]
+        
+        P2 -->|"Strengthens"| P3
+        
+        style P1 fill:#90EE90,stroke:#333,color:#000
+        style P2 fill:#90EE90,stroke:#333,color:#000
+        style P3 fill:#90EE90,stroke:#333,color:#000
+    end
+    
+    subgraph "AI Risks"
+        R1["Content
+        Generation"] -->|"Amplifies"| R2["Information
+        Spread"]
+        
+        R2 -->|"Creates"| R3["Complex
+        Networks"]
+        
+        R3 -->|"Reinforces"| R1
+        
+        style R1 fill:#FFB6C1,stroke:#333,color:#000
+        style R2 fill:#FFB6C1,stroke:#333,color:#000
+        style R3 fill:#FFB6C1,stroke:#333,color:#000
+    end
+    
+    P3 -->|"Mitigates"| R1
+    P2 -->|"Controls"| R2
+    P1 -->|"Monitors"| R3
+    
+    subgraph "Feedback Loop"
+        F1["Continuous
+        Evaluation"] -->|"Improves"| P1
+        F1 -->|"Strengthens"| P2
+        F1 -->|"Enhances"| P3
+        
+        style F1 fill:#98FB98,stroke:#333,color:#000
+    end
+~~~
+
+~~~mermaid
 flowchart TD
     subgraph "Research Elements"
         R1["Research Methods"] -->|"Exploited"| R2["Technical Insights"]
