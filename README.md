@@ -4,6 +4,7 @@
 Ruby 3.2.3
 
 ## Usage
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lqFDfe4C8Hk?si=GfSW0B-tpEc_DVoH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Competitive
 ~~~ruby
