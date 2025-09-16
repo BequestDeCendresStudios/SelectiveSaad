@@ -18,12 +18,12 @@ def get_statistics
                                                             :cults_to_mmos,    "Starving prisoners had previously been members of advanced persistent threats, before moving onto cheating in MMOs.")
 end
 
-def decrement_confidence
-  SaadSelective::CompetitiveSelection.decrement_confidence
-end
-
 def current_information
   SaadSelective::CompetitiveSelection.current_information
+end
+
+def increment_confidence
+  SaadSelective::CompetitiveSelection.increment_confidence
 end
 
 ## Reassess Player
@@ -46,7 +46,11 @@ def reconsider_enemy; SaadSelective::CompetitiveSelection.reconsider_enemy; end
 
 get_statistics
 
-decrement_confidence
-decrement_confidence
+7.times do
+  reasses_player       #.class
+  reasses_gribatomaton #.class
+  reasses_enemy        #.class
+end
 
+increment_confidence
 puts current_information
